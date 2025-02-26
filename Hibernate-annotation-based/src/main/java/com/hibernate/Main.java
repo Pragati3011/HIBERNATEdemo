@@ -23,8 +23,8 @@ public class Main {
 
         Student  s2=new Student();
         s2.setId(2);
-        s2.setName("Mental Pragti");
-        s2.setCity("Mental hospital");//we can set values by setter method  and constructor
+        s2.setName(" Pragti");
+        s2.setCity(" ");//we can set values by setter method  and constructor
 
         Transaction transaction= session.beginTransaction();
        // session.save(s);
